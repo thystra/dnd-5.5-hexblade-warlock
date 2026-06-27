@@ -13,7 +13,10 @@ A local Foundry VTT module for Foundry v14 / dnd5e 5.3.3 containing a homebrew 2
 
 ## Install
 
-Copy the `hexblade-patron-playtest` folder into:
+Use this link to install via Foundry web interface:
+https://github.com/thystra/dnd-5-5-hexblade-warlock/releases/latest/download/module.json
+
+Alternatively, download and extract the desired version and copy the `dnd-5-5-hexblade-warlock` folder into:
 
 ```text
 {Foundry User Data}/Data/modules/
@@ -23,7 +26,7 @@ Then restart Foundry, enable **Hexblade Patron Playtest** in your world, and ope
 
 ## Notes
 
-This module uses a NeDB-style `.db` compendium pack for portability. Foundry v11+ migrates legacy `.db` packs into LevelDB format on load. If your server refuses to migrate the pack, the full item source is included at `source/hexblade-items.json` and can be imported manually into an Item compendium.
+This module uses a NetDB-style `.db` compendium pack for portability. Foundry v11+ migrates legacy `.db` packs into LevelDB format on load. If your server refuses to migrate the pack, the full item source is included at `source/hexblade-items.json` and can be imported manually into an Item compendium.
 
 The patron spell list is included as a feature item, but spell grants are not automated because some listed spells may live in official/premium content modules or may not be present in the free SRD 5.2 compendium.
 
@@ -34,7 +37,7 @@ The subclass is intentionally playtest-first. Some features, especially Hex Aura
 For private/local development, make this module folder itself a git repository and keep it cloned directly under Foundry's user data modules directory:
 
 ```bash
-cd /path/to/FoundryVTT/Data/modules/hexblade-patron-playtest
+cd /path/to/FoundryVTT/Data/modules/dnd-5-5-hexblade-warlock
 git init
 git add .
 git commit -m "Initial Hexblade Patron module"
@@ -42,18 +45,5 @@ git commit -m "Initial Hexblade Patron module"
 
 After changes, commit them, restart Foundry, and re-open the world. If Foundry has already migrated the legacy `.db` pack to a LevelDB folder, remove the generated `packs/hexblade-items/` folder before testing a freshly updated `.db` pack.
 
-For a GitHub/Gitea release workflow, add `manifest` and `download` URLs to `module.json` once the repository URL is known. The `manifest` URL should point to the raw `module.json`; the `download` URL should point to a versioned release ZIP. Bump `version` for each release.
 
-Example placeholder:
-
-```json
-"manifest": "https://raw.githubusercontent.com/YOURUSER/hexblade-patron-playtest/v0.1.1/module.json",
-"download": "https://github.com/YOURUSER/hexblade-patron-playtest/releases/download/v0.1.1/hexblade-patron-playtest-0.1.1.zip"
-```
-
-Create a release ZIP with:
-
-```bash
-./scripts/package.sh
-```
 
