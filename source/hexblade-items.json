@@ -25,23 +25,23 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbSpells0000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbSpells0000001",
                 "optional": false
               },
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbTrain00000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbTrain00000001",
                 "optional": false
               },
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbAura000000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbAura000000001",
                 "optional": false
               },
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbSoul000000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbSoul000000001",
                 "optional": false
               },
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbTaunt00000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbTaunt00000001",
                 "optional": false
               }
             ],
@@ -58,19 +58,19 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbSteel00000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbSteel00000001",
                 "optional": false
               },
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbNimble0000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbNimble0000001",
                 "optional": false
               },
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbSpecter000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbSpecter000001",
                 "optional": false
               },
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbMend000000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbMend000000001",
                 "optional": false
               }
             ],
@@ -87,7 +87,7 @@
           "configuration": {
             "items": [
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbWarding000001",
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbWarding000001",
                 "optional": false
               }
             ],
@@ -111,13 +111,13 @@
             },
             "pool": [
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbTyrant0000001"
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbTyrant0000001"
               },
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbReaper0000001"
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbReaper0000001"
               },
               {
-                "uuid": "Compendium.hexblade-patron-playtest.hexblade-items.Item.hxbMarshal000001"
+                "uuid": "Compendium.dnd-5-5-hexblade-warlock.hexblade-items.Item.hxbMarshal000001"
               }
             ],
             "restriction": {
