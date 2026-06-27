@@ -9,7 +9,7 @@
   ],
   "version": "0.1.1",
   "url": "https://github.com/thystra/dnd-5.5-hexblade-warlock",
-  "manifest": "https://raw.githubusercontent.com/thystra/dnd-5.5-hexblade-warlock/main/module.json",
+  "manifest": "https://github.com/thystra/dnd-5.5-hexblade-warlock/released/latest/module.json",
   "download": "https://github.com/thystra/dnd-5.5-hexblade-warlock/releases/download/v0.1.1/hexblade-patron-playtest-0.1.1.zip",
   "compatibility": {
     "minimum": "14",
