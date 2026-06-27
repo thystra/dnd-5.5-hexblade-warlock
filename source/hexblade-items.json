@@ -359,7 +359,7 @@
     "img": "icons/magic/unholy/orb-swirling-teal.webp",
     "system": {
       "description": {
-        "value": "<h2>Hex Charges</h2>\n<p>When you activate Hex Aura, you gain a number of Hex Charges equal to your Charisma modifier (minimum of 1). You can spend these charges on your Hexblade features. Unspent Hex Charges vanish when the aura ends.</p>\n<p><strong>Foundry use:</strong> Set this resource to full when you activate Hex Aura. Spend one charge when using Soul Reaping, Hexing Challenge, Nimble Escape, Warding Aura, Mend the Bound Spirit, or other Hexblade features that require a Hex Charge.</p>",
+        "value": "<h2>Hex Charges</h2>\n<p>When you activate Hex Aura, you gain a number of Hex Charges equal to your Charisma modifier (minimum of 1). You can spend these charges on your Hexblade features. Unspent Hex Charges vanish when the aura ends.</p>\n<p><strong>Foundry use:</strong> Set this resource to full when you activate Hex Aura. Spend one charge when using Soul Reaping, Hexing Challenge, Nimble Escape, Warding Aura, Mend the Bound Spirit, or other Hexblade features that require a Hex Charge.</p>\n<p><strong>Formula note:</strong> This item uses <code>max(1,@abilities.cha.mod)</code> so a Hexblade with a Charisma modifier of 0 or lower still has at least 1 Hex Charge.</p>",
         "chat": ""
       },
       "source": {
@@ -370,7 +370,7 @@
         "book": ""
       },
       "uses": {
-        "max": "@abilities.cha.mod",
+        "max": "max(1,@abilities.cha.mod)",
         "spent": 0,
         "recovery": []
       },

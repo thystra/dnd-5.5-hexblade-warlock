@@ -1,3 +1,9 @@
+## 0.1.8
+
+- Fixed Hex Charges showing 0 charges when Charisma modifier is 0.
+- Updated the Hex Charges item maximum from `@abilities.cha.mod` to `max(1,@abilities.cha.mod)`.
+- Rules text remains Charisma modifier, minimum 1.
+
 ## 0.1.7
 
 - Changed Hex Charges from Proficiency Bonus to Charisma modifier, minimum 1 by rules text.
