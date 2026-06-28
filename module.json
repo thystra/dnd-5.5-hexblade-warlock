@@ -29,10 +29,10 @@
   },
   "packs": [
     {
-      "name": "hexblade-items",
+      "name": "soulblade-items",
       "label": "Soul Blade Patron: Items",
       "system": "dnd5e",
-      "path": "./packs/soulbladepatron-items.db",
+      "path": "./packs/soulblade-items.db",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",

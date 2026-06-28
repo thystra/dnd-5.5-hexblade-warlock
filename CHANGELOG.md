@@ -1,3 +1,15 @@
+## 0.2.0
+
+- Rebranded public package from Hexblade Patron to Soul Blade Patron.
+- Updated module id, title, description, repository URLs, manifest URL, and download URL.
+- Renamed compendium packs and pack files to the `soulblade-*` naming convention.
+- Renamed public subclass item to Soul Blade Patron.
+- Renamed Hexblade Training to Soul Blade Training.
+- Moved Pact Weapon Focus text out of Soul Blade Training.
+- Added new level-3 feature: Price of the Pact.
+- Added Price of the Pact to the level-3 subclass ItemGrant advancement.
+- Added LICENSE, CONTENT-LICENSE.md, and NOTICE.md.
+
 ## 0.1.9
 
 - Reworded Soul Reaping to positive once-per-turn wording.

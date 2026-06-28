@@ -2,7 +2,7 @@
 // Version: 0.1.5
 //
 // Usage:
-//   Select the Hexblade's token on an active scene and run this macro.
+//   Select the Soul Blade's token on an active scene and run this macro.
 //   It imports/creates a world actor from the module compendium, scales the copy,
 //   and places a token one grid space to the right of the summoner.
 
@@ -10,11 +10,11 @@ const summonerToken = canvas.tokens?.controlled?.[0];
 const summoner = summonerToken?.actor ?? game.user.character;
 
 if (!summoner) {
-  ui.notifications.warn("Select the Hexblade token or assign a character to your user.");
+  ui.notifications.warn("Select the Soul Blade token or assign a character to your user.");
   return;
 }
 
-const sourceUuid = "Compendium.dnd-5-5-hexblade-warlock.hexblade-actors.Actor.hxbSpecterActor1";
+const sourceUuid = "Compendium.soul-blade-warlock-patron.soulblade-actors.Actor.hxbSpecterActor1";
 const source = await fromUuid(sourceUuid);
 if (!source) {
   ui.notifications.error(`Could not find Hexbound Specter actor: ${sourceUuid}`);
@@ -43,10 +43,10 @@ foundry.utils.setProperty(data, "system.attributes.hp.value", hp);
 foundry.utils.setProperty(data, "system.attributes.hp.max", hp);
 foundry.utils.setProperty(data, "system.attributes.prof", prof);
 foundry.utils.setProperty(data, "system.abilities.cha.value", chaScore);
-foundry.utils.setProperty(data, "flags.dnd-5-5-hexblade-warlock.summoner", summoner.uuid);
-foundry.utils.setProperty(data, "flags.dnd-5-5-hexblade-warlock.warlockLevel", warlockLevel);
-foundry.utils.setProperty(data, "flags.dnd-5-5-hexblade-warlock.attackBonus", attackBonus);
-foundry.utils.setProperty(data, "flags.dnd-5-5-hexblade-warlock.damageDice", damageDice);
+foundry.utils.setProperty(data, "flags.soul-blade-warlock-patron.summoner", summoner.uuid);
+foundry.utils.setProperty(data, "flags.soul-blade-warlock-patron.warlockLevel", warlockLevel);
+foundry.utils.setProperty(data, "flags.soul-blade-warlock-patron.attackBonus", attackBonus);
+foundry.utils.setProperty(data, "flags.soul-blade-warlock-patron.damageDice", damageDice);
 
 // Tune Life Drain activities on the copied actor.
 for (const item of data.items ?? []) {

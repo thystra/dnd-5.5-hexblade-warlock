@@ -1,15 +1,15 @@
-// Import Hexblade Patron Spells
+// Import Soul Blade Patron Spells
 // Version: 0.1.5
 //
 // Usage:
-//   1. Select the Hexblade actor's token, or assign the actor as your user character.
+//   1. Select the Soul Blade actor's token, or assign the actor as your user character.
 //   2. The macro imports spells by UUID when the compendium exists.
 //   3. Missing compendia/spells are skipped and reported.
 //   4. Imported spells are marked "always prepared" when the system data supports that field.
 
 const actor = canvas.tokens?.controlled?.[0]?.actor ?? game.user.character;
 if (!actor) {
-  ui.notifications.warn("Select a Hexblade token or assign a character to your user.");
+  ui.notifications.warn("Select a Soul Blade token or assign a character to your user.");
   return;
 }
 
@@ -43,7 +43,7 @@ for (const entry of spells) {
   try {
     doc = await fromUuid(entry.uuid);
   } catch (err) {
-    console.warn(`Hexblade spell import failed for ${entry.name}`, entry.uuid, err);
+    console.warn(`Soul Blade spell import failed for ${entry.name}`, entry.uuid, err);
   }
 
   if (!doc) {
@@ -55,16 +55,16 @@ for (const entry of spells) {
   data._id = foundry.utils.randomID();
   foundry.utils.setProperty(data, "system.preparation.mode", "always");
   foundry.utils.setProperty(data, "system.preparation.prepared", true);
-  foundry.utils.setProperty(data, "flags.dnd-5-5-hexblade-warlock.patronSpell", true);
-  foundry.utils.setProperty(data, "flags.dnd-5-5-hexblade-warlock.sourceUuid", entry.uuid);
+  foundry.utils.setProperty(data, "flags.soul-blade-warlock-patron.patronSpell", true);
+  foundry.utils.setProperty(data, "flags.soul-blade-warlock-patron.sourceUuid", entry.uuid);
   toCreate.push(data);
 }
 
 if (toCreate.length) await actor.createEmbeddedDocuments("Item", toCreate);
 
-let msg = `<h2>Hexblade Patron Spell Import</h2><p><strong>Actor:</strong> ${actor.name}</p>`;
+let msg = `<h2>Soul Blade Patron Spell Import</h2><p><strong>Actor:</strong> ${actor.name}</p>`;
 if (toCreate.length) msg += `<p><strong>Imported:</strong> ${toCreate.map(s => s.name).join(", ")}</p>`;
 if (skipped.length) msg += `<p><strong>Already present:</strong> ${skipped.join(", ")}</p>`;
 if (missing.length) msg += `<p><strong>Missing UUIDs/compendia:</strong> ${missing.join(", ")}</p>`;
 ChatMessage.create({ speaker: ChatMessage.getSpeaker({ actor }), content: msg });
-ui.notifications.info(`Hexblade spell import complete: ${toCreate.length} imported, ${missing.length} missing.`);
+ui.notifications.info(`Soul Blade spell import complete: ${toCreate.length} imported, ${missing.length} missing.`);

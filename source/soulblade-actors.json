@@ -99,7 +99,7 @@
       },
       "details": {
         "biography": {
-          "value": "<p>A bound fragment of a departed hostile creature, shaped by a Hexblade's aura into a spectral ally.</p><p><strong>Scaling:</strong> AC equals 12 + half the summoner's Proficiency Bonus, rounded down. Hit Points equal 10 + five times the summoning Warlock's level. Life Drain attack bonus equals +4 plus the summoner's Charisma modifier. Life Drain deals 3d6 Necrotic damage, increasing to 4d6 at Warlock level 10 and 5d6 at Warlock level 14.</p>",
+          "value": "<p>A bound fragment of a departed hostile creature, shaped by a Soul Blade's aura into a spectral ally.</p><p><strong>Scaling:</strong> AC equals 12 + half the summoner's Proficiency Bonus, rounded down. Hit Points equal 10 + five times the summoning Warlock's level. Life Drain attack bonus equals +4 plus the summoner's Charisma modifier. Life Drain deals 3d6 Necrotic damage, increasing to 4d6 at Warlock level 10 and 5d6 at Warlock level 14.</p>",
           "public": ""
         },
         "alignment": "Neutral",
@@ -114,7 +114,7 @@
         "cr": 0,
         "spellLevel": 0,
         "source": {
-          "custom": "Hexblade Patron Playtest",
+          "custom": "Soul Blade Patron",
           "rules": "2024",
           "revision": 1,
           "license": "Homebrew Playtest",
@@ -255,7 +255,7 @@
             "chat": ""
           },
           "source": {
-            "custom": "Hexblade Patron Playtest",
+            "custom": "Soul Blade Patron Playtest",
             "rules": "2024",
             "revision": 1,
             "license": "Homebrew Playtest",
@@ -615,7 +615,7 @@
             "chat": ""
           },
           "source": {
-            "custom": "Hexblade Patron Playtest",
+            "custom": "Soul Blade Patron Playtest",
             "rules": "2024",
             "revision": 1,
             "license": "Homebrew Playtest",
@@ -653,7 +653,7 @@
             "chat": ""
           },
           "source": {
-            "custom": "Hexblade Patron Playtest",
+            "custom": "Soul Blade Patron Playtest",
             "rules": "2024",
             "revision": 1,
             "license": "Homebrew Playtest",
@@ -695,7 +695,7 @@
       "systemVersion": "5.3.3",
       "createdTime": 1770000000000,
       "modifiedTime": 1770000500000,
-      "lastModifiedBy": "hexbladeplaytest",
+      "lastModifiedBy": "soulbladeplaytest",
       "exportSource": null
     },
     "_key": "!actors!hxbSpecterActor1"

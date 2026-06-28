@@ -1,12 +1,12 @@
 // Apply Hexed Steel to Pact Weapon
 // Version: 0.1.9
 //
-// Select the Hexblade token or assign the Hexblade actor as your user character.
+// Select the Soul Blade token or assign the Soul Blade actor as your user character.
 // This duplicates one weapon attack activity and adds the correct Hexed Steel damage die.
 
 const actor = canvas.tokens?.controlled?.[0]?.actor ?? game.user.character;
 if (!actor) {
-  ui.notifications.warn("Select a Hexblade token or assign a character to your user.");
+  ui.notifications.warn("Select a Soul Blade token or assign a character to your user.");
   return;
 }
 

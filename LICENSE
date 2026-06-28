@@ -1,0 +1,21 @@
+Soul Blade Patron for Warlocks - Software License
+
+SPDX-License-Identifier: GPL-3.0-or-later
+
+The software portions of this project are licensed under the GNU General Public
+License, version 3 or later. This includes JavaScript macros, package/module
+plumbing, build scripts, patch scripts, and other executable or automation code.
+
+You may redistribute and/or modify the software under the terms of the GNU
+General Public License as published by the Free Software Foundation, either
+version 3 of the License, or, at your option, any later version.
+
+The software is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+The full GPL-3.0 license text is available from:
+https://www.gnu.org/licenses/gpl-3.0.html
+
+Game content, subclass text, feature descriptions, stat blocks, lore, and other
+rules text are not licensed under the GPL. See CONTENT-LICENSE.md.
