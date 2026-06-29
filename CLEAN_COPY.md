@@ -1,12 +1,12 @@
-# Hexblade Patron
+# Soul Blade Patron
 
-*Warlock Subclass / Patron — D&D 2024 Playtest Homebrew*
+*Homebrew Warlock Subclass / Patron — Designed for D&D 2024 / 5.5E ruleset*
 
-Your pact binds you to a sentient curse, shadowed weapon, deathly patron, or hungry force that manifests through close combat. A Hexblade is not merely a spellcaster with a sword; you are a battlefield anchor, a living curse, and a shield against enemies that would pass you by.
+Your pact binds you to a sentient cursed, shadowed weapon, deathly patron, or hungry force that manifests through close combat. A Soul Blade is not merely a spellcaster with a sword; you are a battlefield anchor, a living curse, and a shield against enemies that would pass you by.
 
-## Hexblade Patron Spells
+## Soul Blade Patron Spells
 
-The magic of your patron ensures you always have certain spells ready. When you reach a Warlock level specified in the Hexblade Patron Spells table, you thereafter always have the listed spells prepared.
+The magic of your patron ensures you always have certain spells ready. When you reach a Warlock level specified in the Soul Blade Patron Spells table, you thereafter always have the listed spells prepared.
 
 | Warlock Level | Spells |
 |---:|---|
@@ -17,9 +17,9 @@ The magic of your patron ensures you always have certain spells ready. When you 
 
 ### Optional unarmored variant
 
-If the Hexblade is intended to be an unarmored shadow-duelist rather than an armored defender, the DM may replace Wrathful Smite with Mage Armor. For the default armored defender version, use Shield and Wrathful Smite.
+If the Soul Blade is intended to be an unarmored shadow-duelist rather than an armored defender, the DM may replace Wrathful Smite with Mage Armor. For the default armored defender version, use Shield and Wrathful Smite.
 
-## Level 3: Hexblade Training
+## Level 3: Soul Blade Training
 
 You gain proficiency with medium armor and shields.
 
@@ -31,11 +31,11 @@ As a Bonus Action, you surround yourself with a baleful aura for 1 minute. The a
 
 When you activate the aura, choose any number of creatures you can see. The aura does not affect the chosen creatures.
 
-You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+You can use this feature a number of times equal to your Charisma Bonus, and you regain all expended uses when you finish a Long Rest.
 
-When you activate Hex Aura, you gain a number of Hex Charges equal to your Proficiency Bonus. You can spend these charges on your Hexblade features. Unspent Hex Charges vanish when the aura ends.
+When you activate Hex Aura, you gain a number of Hex Charges equal to your Charisma Bonus. You can spend these charges on your Soul Blade features. Unspent Hex Charges vanish when the aura ends.
 
-Unless otherwise stated, a Hexblade feature affects only hostile creatures inside your Hex Aura.
+Unless otherwise stated, a Soul Blade feature affects only hostile creatures inside your Hex Aura.
 
 ## Level 3: Soul Reaping
 
@@ -99,9 +99,9 @@ The damage increases to 4d6 when you reach Warlock level 10 and 5d6 when you rea
 
 ## Hexbound Specter Healing and Incorporeal Nature
 
-The Hexbound Specter can regain Hit Points or gain Temporary Hit Points from your Hexblade features. It can also regain Hit Points from a spell or magical effect that can affect Undead creatures.
+The Hexbound Specter can regain Hit Points or gain Temporary Hit Points from your Soul Blade features. It can also regain Hit Points from a spell or magical effect that can affect Undead creatures.
 
-When a Hexblade feature would cause you to regain Hit Points or gain Temporary Hit Points, you can cause one Hexbound Specter you summoned to receive that healing or Temporary Hit Points instead, provided the specter is inside your Hex Aura. You do not also receive the healing or Temporary Hit Points unless the feature says otherwise.
+When a Soul Blade feature would cause you to regain Hit Points or gain Temporary Hit Points, you can cause one Hexbound Specter you summoned to receive that healing or Temporary Hit Points instead, provided the specter is inside your Hex Aura. You do not also receive the healing or Temporary Hit Points unless the feature says otherwise.
 
 A spell or magical effect that restores Hit Points to a creature can restore Hit Points to the Hexbound Specter if the spell or effect does not exclude Undead. Touch-range healing spells, such as Cure Wounds, can affect the Hexbound Specter in this way.
 
