@@ -1,3 +1,8 @@
+## 0.2.1
+
+- Fixed the broken image on the Apply Hexed Steel to Pact Weapon macro.
+- Updated Price of the Pact heading from "Pact Weapon Focus - Optional Rule" to "Optional Rule: Pact Weapon Focus".
+
 ## 0.2.0
 
 - Rebranded public package from Hexblade Patron to Soul Blade Patron.
